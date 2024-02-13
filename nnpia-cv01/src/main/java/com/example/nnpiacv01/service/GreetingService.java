@@ -1,4 +1,4 @@
-package com.example.nnpiacv01.services;
+package com.example.nnpiacv01.service;
 
 public class GreetingService implements IGreetingService{
     @Override

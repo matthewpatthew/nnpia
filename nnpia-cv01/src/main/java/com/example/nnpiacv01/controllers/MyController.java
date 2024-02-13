@@ -1,7 +1,7 @@
 package com.example.nnpiacv01.controllers;
 
-import com.example.nnpiacv01.services.GreetingService;
-import com.example.nnpiacv01.services.IGreetingService;
+import com.example.nnpiacv01.service.GreetingService;
+import com.example.nnpiacv01.service.IGreetingService;
 
 public class MyController {
     private final IGreetingService greetingService;

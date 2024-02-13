@@ -1,10 +1,8 @@
 package com.example.nnpiacv01.controllers;
 
-import com.example.nnpiacv01.services.GreetingService;
+import com.example.nnpiacv01.service.GreetingService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class ConstructorControllerTest {
 
