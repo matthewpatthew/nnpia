@@ -6,10 +6,9 @@ import org.springframework.stereotype.Controller;
 
 @Controller
 public class SetterController {
-
-    @Autowired
     private IGreetingService greetingService;
 
+    @Autowired
     public void setGreetingService(IGreetingService greetingService) {
         this.greetingService = greetingService;
     }
